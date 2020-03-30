@@ -1,13 +1,16 @@
-Arabic Transliteration in PHP
-==========================
-
 Installation
 -------
 ```
 git clone ...
 docker-compose up
 ```
+Default port 82 http://localhost:82?text=إسمي سُلَيمان
+```
+{ transliteratedText : 'ismy sulaymān' }
+```
 
+Arabic Transliteration in PHP
+==========================
 
 This function takes an arabic string like نَعْبُدُ and returns a latinized transliteration like /naʿbud/ (somewhat resembling the ALA-LC standard).
 
