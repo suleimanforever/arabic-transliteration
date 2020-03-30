@@ -1,6 +1,14 @@
 Arabic Transliteration in PHP
 ==========================
 
+Installation
+-------
+```
+git clone ...
+docker-compose up
+```
+
+
 This function takes an arabic string like نَعْبُدُ and returns a latinized transliteration like /naʿbud/ (somewhat resembling the ALA-LC standard).
 
 Usage: require arabic_transliteration.php and call:
@@ -48,3 +56,4 @@ Todo
 * More tests
 * Pattern recognition to know when alef with wasla and lam are part of a verb, and thus should have kasra or damma (as opposed to fatha when alef lam is the definitive article)
 * Alef on a verb ending with Waw ul-Jam` should not be transliterated
+
