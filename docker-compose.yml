@@ -2,6 +2,7 @@ version: "3"
 services:
     www:
         build: .
+        container_name: arlit
         ports:
             - "82:80"
         volumes:
